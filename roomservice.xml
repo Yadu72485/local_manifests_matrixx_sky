@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Matrixx Device Tree -->
+    <project
+        path="device/xiaomi/sky"
+        name="Yadu72485/device_xiaomi_sky_matrixx"
+        remote="github"
+        revision="15.0" />
+
+    <!-- Kernel Tree -->
+    <project
+        path="device/xiaomi/sky-kernel"
+        name="RisingTechOSS-devices/device_xiaomi_sky-kernel"
+        remote="github"
+        revision="fifteen" />
+
+    <!-- Vendor Tree -->
+    <project
+        path="vendor/xiaomi/sky"
+        name="RisingTechOSS-devices/vendor_xiaomi_sky"
+        remote="github"
+        revision="fifteen" />
+
+</manifest>
