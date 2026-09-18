@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="Yadu72485/android_device_xiaomi_sky" path="device/xiaomi/sky" remote="github" revision="15.0" />
-  <project name="Yadu72485/android_vendor_xiaomi_sky" path="vendor/xiaomi/sky" remote="github" revision="15.0" />
-  <project name="Yadu72485/android_xiaomi_sky_kernel" path="kernel/xiaomi/sky" remote="github" revision="15.0" />
+    <!-- Device Tree -->
+    <project name="Yadu72485/android_device_xiaomi_sky" path="device/xiaomi/sky" remote="github" revision="15.0" />
+    
+    <!-- Vendor Tree -->
+    <project name="Yadu72485/android_vendor_xiaomi_sky" path="vendor/xiaomi/sky" remote="github" revision="15.0" />
+    
+    <!-- Kernel Tree -->
+    <project name="Yadu72485/android_kernel_xiaomi_sky" path="kernel/xiaomi/sky" remote="github" revision="15.0" />
+
+    <!-- Dolby Hardware -->
+    <project name="Yadu72485/android_hardware_dolby" path="hardware/dolby" remote="github" />
 </manifest>
